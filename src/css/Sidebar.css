@@ -1,0 +1,15 @@
+.sidebar__container {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 0 42px;
+}
+
+.sidebar__description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar__description h1 {
+    font-size: 12px;
+}
