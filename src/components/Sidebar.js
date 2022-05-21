@@ -12,19 +12,21 @@ import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import ListAltIcon from "@mui/icons-material/ListAlt";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import { Button } from '@mui/material'
 
 const Sidebar = () => {
   return (
     <div className="sidebar__container">
-      <TwitterIcon />
-      <SidebarOption icon={<HomeIcon />} description="Home"/>
+      <TwitterIcon style={{ color: '#1DA1F2' }}/>
+      <SidebarOption active={true} icon={<HomeIcon />} description="Home"/>
       <SidebarOption icon={<TagIcon />} description="Explore"/>
-      <SidebarOption icon={<HomeIcon />} description="Notifications"/>
-      <SidebarOption icon={<NotificationsNoneIcon />} description="Messages"/>
-      <SidebarOption icon={<MailOutlineIcon />} description="Bookmarks"/>
-      <SidebarOption icon={<BookmarkBorderIcon />} description="Lists"/>
-      <SidebarOption icon={<ListAltIcon />} description="Profile"/>
-      <SidebarOption icon={<AccountCircleIcon />} description="More"/>
+      <SidebarOption icon={<NotificationsNoneIcon />} description="Notifications"/>
+      <SidebarOption icon={<MailOutlineIcon />} description="Messages"/>
+      <SidebarOption icon={<BookmarkBorderIcon />} description="Bookmarks"/>
+      <SidebarOption icon={<ListAltIcon />} description="Lists"/>
+      <SidebarOption icon={<AccountCircleIcon />} description="Profile"/>
+      <SidebarOption icon={<MoreHorizIcon />} description="More"/>
+      <Button variant="contained" className="sidebar__tweet-button">Tweet</Button>
     </div>
   );
 };

@@ -13,3 +13,13 @@
 .sidebar__description h1 {
     font-size: 12px;
 }
+
+.sidebar__tweet-button {
+    max-width: 200px;
+    border: none !important;
+    color: white !important;
+    background-color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    border-radius: 10px !important;
+    margin: 14px 0 0 0 !important;
+}

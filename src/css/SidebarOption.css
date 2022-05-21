@@ -3,14 +3,26 @@
     align-items: center;
     justify-content: flex-start;
     color: #4f4f4f;
+    max-width: 200px;
 }
 
 .sidebar__option:hover {
-    color:#1DA1F2;
+    color: var(--twitter-color);
+    transition: color 200ms ease-out;
     cursor: pointer;
+    background-color: #e8f5fe;
+    border-radius: 20px;
 }
 
 .sidebar__option--description {
     font-size: 20px;
     margin: 14px 0 14px 14px;
+}
+
+.sidebar__option--icon {
+    padding: 10px;
+}
+
+.sidebar__option--active {
+    color: var(--twitter-color);
 }
