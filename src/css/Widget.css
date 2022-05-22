@@ -1,5 +1,36 @@
 .widget__container {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.widget__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widget__input input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+.widget__input--searchicon {
+  color: gray;
+}
+
+.widget__container {
+    margin: 16px 0 0 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widget__container h2 {
+    font-size: 18px;
+    font-weight: 800;
 }
