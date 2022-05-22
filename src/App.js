@@ -1,13 +1,14 @@
 import './App.css';
 import Sidebar from './components/Sidebar'
+import Feed from './components/Feed'
+import Widget from './components/Widget'
 
 function App() {
   return (
     <div className="app">
-      {/* Sidebar Left} */}
       <Sidebar />
-      {/* Feed Page/Section} */}
-      {/* Sidebar Right (Widgets)} */}
+      <Feed />
+      <Widget />
     </div>
   );
 }

@@ -1,0 +1,12 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 10px;
+    color: #4f4f4f;
+    border-bottom: 1px solid var(--twitter-background);
+}
+
+.header__container--icon {
+    color: var(--twitter-color) !important;
+    transform: scale(-1, 1) !important;
+}
