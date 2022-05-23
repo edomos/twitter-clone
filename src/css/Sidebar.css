@@ -1,11 +1,11 @@
 .sidebar__container {
     display: flex;
     flex-direction: column;
-    margin: 14px 0 0 42px;
-    width: 25vw;
-    min-width: 250px;
+    padding: 14px 0 0 28px;
+    /* width: 25vw; */
+    /* flex: 0.25; */
+    min-width: 240px;
     border-right: 1px solid var(--twitter-background);
-    /* flex: 1; */
 }
 
 .sidebar__description {

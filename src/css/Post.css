@@ -12,6 +12,8 @@
 
 .post__body img {
     border-radius: 20px;
+    max-width: 360px;
+    width: auto;
 
 }
 
@@ -39,6 +41,7 @@
 .post__footer {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0 0 0;
 }
 
 .post__avatar {

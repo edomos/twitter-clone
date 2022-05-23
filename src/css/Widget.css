@@ -1,7 +1,13 @@
+.widget {
+  width: 25vw;
+  /* flex: 0.3; */
+  box-sizing: border-box;
+}
+
 .widget__container {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 30vw;
 }
 
 .widget__input {
@@ -24,13 +30,21 @@
 }
 
 .widget__container {
-    margin: 16px 0 0 20px;
-    padding: 20px;
-    background-color: #f5f8fa;
-    border-radius: 20px;
+  margin: 16px 0 0 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
 }
 
 .widget__container h2 {
-    font-size: 18px;
-    font-weight: 800;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.widget__embed {
+  max-width: 200px;
+}
+
+.widget__container article {
+  max-width: 140px;
 }

@@ -3,7 +3,8 @@
     flex-direction: column;
     border-right: 1x solid var(--twitter-background);
     padding: 0 8px 0 8px;
-    width: 45vw;
+    width: 50vw;
+    /* flex: 0.45; */
     min-width: fit-content;
     overflow-y: scroll;
 }
